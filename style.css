@@ -1,0 +1,130 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    background-color: white;
+}
+
+#wrapper {
+    width: 1080px;
+    height: 733px;
+    background-color:cyan;
+    margin: 0 auto;
+}
+
+#wrapper img {
+    width: 80px;
+    height: 80px;
+    display: inline;
+    
+}
+
+.topBar {
+    width: 1080px;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    background-color: white;
+}
+
+.topBar h1 {
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;
+    display: inline-block;
+}
+
+.blueText {
+    color: #23669f;
+}
+
+.redText {
+    color: red;
+}
+
+h2 {
+    width: 1065px;
+    height: 60px;
+    font-size: 40px;
+    padding: 10px 0px 0px 15px;
+    background: rgb(40,104,160);
+    background: radial-gradient(circle, rgba(40,104,160,1) 0%, rgba(109,179,237,1) 30%, rgba(40,104,160,1) 80%);
+    justify-content: center;
+    color: white;
+}
+
+.main {
+    width: 1080px;
+    height: 600px; 
+    padding: 0px 0px 0px 0px;   
+    background-color: slateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sideBar {
+    width: 230px;
+    height: 500px;
+    background-color: white;
+}
+
+.sideBar p, .sideBar h5 {
+    margin: 0 0 20px 0;
+}
+
+.watchButton, .resourceButton {
+    width: 200px;
+    height: 28px;
+    padding: 12px 0 0 0;
+    margin: 5px 10px 0px 10px ;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    text-align: center;
+}
+
+.watchButton {
+    background: linear-gradient(180deg, #6197c2, #2769a1);
+}
+
+.resourceButton {
+    background: linear-gradient(180deg, #eba84d, #da6d08);
+}
+
+.career {
+    width: 230px;
+    height: 250px;
+    padding: 40px 0 0 0;
+    background-image: url(images/ad_background.png);
+}
+
+.content {
+    width: 820px;
+    height: 600px;
+}
+
+.mainHeader {
+    width: 820px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.info {
+    width: 820px;
+    height: 350px;
+    background-color: thistle;
+    vertical-align: top;
+}
+
+.footer {
+    width: 820px;
+    height: 150px;
+    background-color: seagreen;
+}
+
